@@ -1,0 +1,186 @@
+.container{
+max-width: 1200px;
+width: 100%;
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+}
+
+.header{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 20px;
+padding-bottom: 38px;
+}
+
+.header_p {
+    display: flex;
+    align-items:center;
+    gap: 40px;
+    padding-left: 149px;
+    padding-right: 149px;
+ 
+}
+.header_p p{
+    transition: all 2s;
+}
+
+.header_p p:hover{
+    cursor: pointer;
+    transform: scale(150%);
+}
+
+.logo{
+    display: flex;
+    gap: 15px;
+padding-right: 68px;
+
+}
+
+.logo img{
+    transition: all 2s;
+}
+
+.logo img:hover{
+    cursor: pointer;
+    transform: scale(150%);
+}
+
+
+.phone{
+    display: flex;
+align-items:center;
+gap: 12px;
+transition: all 2s;
+}
+
+.phone:hover{
+    cursor: pointer;
+    transform: scale(150%);
+}
+
+.section_container{
+max-width: 1200px;
+width: 1200px;
+height: 667px;
+}
+
+.main{
+background-image: url(./images/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png);
+max-width: 1200px;
+width: 1200px;
+height: 667px;
+}
+
+.main h1{
+color: white;
+}
+
+.main h1{
+    width: 46px;
+    height: 134px;
+    padding-top: 113px;
+    padding-left: 477px;
+    gap: 0px;
+    opacity: 0px;
+   
+    font-size: 56px;
+    /* font-weight: 700; */
+    /* line-height: 67.2px; */
+    text-align:center;
+ 
+
+}
+
+.main p{
+color: white;
+}
+
+.main p{
+    width: 537px;
+    height: 81px;
+    padding-top: px;
+    padding-left: 360px;
+    gap: 0px;
+    opacity: 0.8px;
+   
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+        
+}
+
+.main button{
+width: 260px;
+height: 60px;
+background-color: orange;
+margin-left: 480px;
+color:white;
+transition: all 2s;
+}
+
+.main button:hover{
+    cursor: pointer;
+transform: scale(120%);
+
+}
+
+.osnov{
+text-align: center;
+padding-left: 300px;
+}
+
+.osnov{
+    width: 488px;
+    height: 58px;
+    top: 920px;
+    left: 556px;
+    gap: 0px;
+    opacity: 0px;
+
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 57.5px;
+
+        
+}
+
+.carts{
+display: flex;
+gap: 70px;
+padding-top: 80px;
+}
+
+
+.carts h1{
+color:gray;
+}
+
+.dizayn{
+transition: all 2s;
+}
+
+.dizayn:hover{
+transform: scale(120%);
+cursor: pointer;
+}
+
+.mebel{
+    transition: all 2s;
+}
+
+.mebel:hover{
+    transform: scale(120%);
+    cursor: pointer;
+}
+
+.rooms{
+    transition: all 2s;
+}
+
+.rooms:hover{
+    transform: scale(120%);
+    cursor: pointer;
+}
