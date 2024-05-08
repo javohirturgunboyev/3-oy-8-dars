@@ -184,3 +184,53 @@ cursor: pointer;
     transform: scale(120%);
     cursor: pointer;
 }
+
+.We_take_care_of_you{
+background-color:#3d4a39;
+color:white;
+
+
+}
+
+.We_take_care_of_you_h1 h1{
+    width: 526px;
+    height: 58px;
+    top: 1756px;
+    left: 537px;
+    gap: 0px;
+    opacity: 0px;
+
+font-size: 46px;
+font-weight: 600;
+line-height: 57.5px;
+text-align: center;
+padding-left: 300px;
+}
+
+.tools{
+
+transition: all 2s;
+}
+
+
+
+.toolses{
+display: flex;
+gap: 400px;
+}
+
+.toolses tool:hover{
+    transform: scale(120%);
+    cursor: pointer;
+}
+
+.toolesesses{
+display: flex;
+padding-left: 5px;
+gap: 400px;
+}
+
+.toolesesses tool:hover{
+    transform: scale(120%);
+    cursor: pointer;
+}
